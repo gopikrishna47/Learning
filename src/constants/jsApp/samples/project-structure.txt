@@ -1,0 +1,16 @@
+wayfar/
+├── login.html
+├── register.html
+└── js/
+    ├── login.js              entry point: wires the login page together
+    ├── register.js           entry point: wires the register page together
+    ├── models/
+    │   └── User.js           class: the shape of a user
+    ├── services/
+    │   ├── api.js            fetch wrapper (network only)
+    │   ├── session.js        localStorage wrapper (storage only)
+    │   └── notify.js         Notification API wrapper
+    └── utils/
+        ├── dom.js            $, readForm, showMessage
+        ├── validators.js     pure validation functions
+        └── security.js       encodeHtml (+ DOMPurify)
