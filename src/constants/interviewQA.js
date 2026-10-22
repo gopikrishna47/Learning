@@ -1,5 +1,6 @@
 import { JS_APP_QA } from './jsApp/qa.js';
 import { GUIDE_QA } from './guides/guideQA.js';
+import { TCS_REACT_QA } from './guides/tcsReactQA.js';
 
 const BASE_INTERVIEW_QA = [
   // ─── JAVASCRIPT ───────────────────────────────────────────
@@ -11737,4 +11738,4 @@ return res.json(user);`,
 
 ];
 
-export const INTERVIEW_QA = [...BASE_INTERVIEW_QA, ...JS_APP_QA, ...GUIDE_QA];
+export const INTERVIEW_QA = [...BASE_INTERVIEW_QA, ...JS_APP_QA, ...GUIDE_QA, ...TCS_REACT_QA];

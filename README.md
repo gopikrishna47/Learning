@@ -18,6 +18,7 @@ npm run build
 | `src/constants/jsApp/` | WayFar JS-in-a-real-app topic: `sections.js`, `qa.js` and `samples/` (real, lintable code files imported with `?raw` and highlighted by `utils/highlight.js`). |
 | `src/constants/youtubeChannels.js` | Curated Tamil + Indian-English channels; `videos(topic)` builds the YouTube lesson links. |
 | `src/constants/guides/guideQA.js` | 175 de-duplicated guide Q&As (ids 2714–2888) with `body` / `realWorld` blocks, rendered by `QARichContent.jsx`. |
+| `src/constants/guides/tcsReactQA.js` | 13 TCS 5–10-yr React interview Q&As (ids 2889–2901) added after cross-checking the TCS notes: re-render causes, Axios interceptors, Promise vs async/await, React security, auth & RBAC in React, bundle size, frontend monitoring, state across micro-frontends, feature flags, Webpack optimization, component libraries, i18n. Same `answer` / `code` / `body` / `realWorld` shape as `guideQA.js`. |
 | `src/constants/interviewQA.js` | Q&A bank (`id`, `category`, `difficulty`, `question`, `answer`, `code`, `highlights`). **Source of truth only — the app never imports it directly** (see below). |
 | `src/pages/topics/TopicPage.jsx` | Generic subject page driven by a `TOPICS` entry. |
 | `src/redux/store.js` | Progress store; persists to `rcu_done` via `store.subscribe` and syncs across tabs. |
